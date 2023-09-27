@@ -1,66 +1,29 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+NIM   : 2109116064
+Nama  : Selamat Riyandi
+Kelas : SI B 2021
+Tema  : Website Perusahaan Asuransi (Ionix Corporation)
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+Alasan saya dalam memilih tema ini karena nantinya database yang dikelola itu akan lebih dominan berfokus pada pengguna jasa/klien dari perusahaan, bukan dari produk layanan yang ditawarkan. Hal tersebut tentu memudahkan saya selaku pengembang website untuk menentukan atribut dari entitas yang akan di deklarasikan pada database.
 
-## About Laravel
+Berikut merupakan beberapa capture tampilan dari rancangan website perusahaan asuransi Ionix yang saya kembangkan.
+1. Halaman Homepage
+![Screenshot (2678)](https://github.com/SelamatRiyandi/ionixx/assets/120239011/30cbd402-e6d9-4280-bcb2-4e31d88393a2)
+Halaman homepage merupakan halaman yang menjadi index pada website yang saya kembangkan. Di dalamnya berisi introdusi singkat mengenai perusahaan Ionix dan navbar untuk beralih ke halaman lainnya.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+2. Halaman Daftar Klien
+![Screenshot (2679)](https://github.com/SelamatRiyandi/ionixx/assets/120239011/12c84371-b6fc-4ceb-b646-33d18937ce03)
+Halaman daftar klien merupakan halaman dimana nantinya admin perusahaan dapat mengelola data dari klien yang terdaftar di perusahaan memalui tabel yang ditampilkan.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+3. Halaman Testimonial
+![Screenshot (2680)](https://github.com/SelamatRiyandi/ionixx/assets/120239011/18a63e62-b5f6-42d6-ad78-6aba78c2e6b7)
+Halaman testimonial merupakan halaman yang di dalamnya berisi komentar dan ulasan klien dalam memberikan tanggapan ataupun saran terkait kepuasan mereka terhadap pelayanan perusahaan.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+5. Migration
+![Screenshot (2683)](https://github.com/SelamatRiyandi/ionixx/assets/120239011/4659f89d-8b7b-48fb-ab8c-cd93763cb780)
+![Screenshot (2684)](https://github.com/SelamatRiyandi/ionixx/assets/120239011/24157ba2-2fac-470d-905b-a5bb89a04d20)
+Pada proyek websiste perusahaan asuransi Ionix yang saya kembangkan hingga saat ini, terdapat dua buah file migration untuk membuat dua buah tabel pada database yang nantinya akan digunakan untuk menampung data klien perusahaan.
 
-## Learning Laravel
-
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
-
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
-
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+6. Database
+![Screenshot (2681)](https://github.com/SelamatRiyandi/ionixx/assets/120239011/fd3e4d16-da25-4890-b94f-f01f9a82b3a4)
+![Screenshot (2682)](https://github.com/SelamatRiyandi/ionixx/assets/120239011/46da8f60-23ff-429e-bb49-6d4a94ef0718)
+Setelah melakukan konfigurasi migrate melalui terminal, terdapat dua buah tabel yang telah di deklarasikan pada database Ionix yaitu tabel klien dan kategori.
